@@ -5,10 +5,12 @@
   <meta charset="utf-8">
   <title>Acapella</title>
   <meta charset="utf-8">
-  <link href="reset.css" rel="stylesheet" type="text/css"/>
-  <!-- Подключаем Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <link href="style.css" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" href="styles/hamburgers.css" />
+  <link href="styles/style.css" rel="stylesheet" type="text/css"/>
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
 </head>
 
 <body id="#top">
@@ -17,7 +19,7 @@
 
   <div class="menu">
     <p class="logo1">
-      <img src="images/logo.jpg" alt="logo">
+      <img src="images/logo.jpg" alt="logo" />
     </p>
     <a href="#top" class="close">CLOSE</a>
     <ul class="nav"> 
@@ -37,9 +39,13 @@
       <div class="container-fluid">
         <div class="top_part">
           <p class="logo">
-            <img src="images/logo.jpg" alt="logo">
+            <img src="images/logo.jpg" alt="logo" />
           </p>
-            <a class="main-item" href="#"><i class="icon-align-justify"></i></a>
+          <div id="nav-toggle" class="hamburger hamburger--emphatic-r">
+            <div class="hamburger-box">
+              <div class="hamburger-inner"></div>
+            </div>
+          </div>
         </div>
       </div>
     <div class="sub_banner">
@@ -81,13 +87,7 @@
     <!-- load_more starts -->
 
     <div class="load_more">
-      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-3"></div>
-      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
-        <button class="button button--saqui button--round-l button--text-thick" data-text="LOAD MORE">
-          LOAD MORE
-        </button>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-3"></div>
+        <button class="button button--saqui button--round-l button--text-thick" data-text="LOAD MORE">LOAD MORE</button>
     </div>
 
     <!-- load_more ends -->
@@ -173,30 +173,6 @@
 	      			<div class="img_7"></div>
 	      			<div class="img_8"></div>
     			  </div>
-      			<div class="dribbble_shots-six">
-  				    <div class="img_1-six"></div>
-  				    <div class="img_2-six"></div>
-  				    <div class="img_3-six"></div>
-  				    <div class="img_4-six"></div>
-  				    <div class="img_5-six"></div>
-  				    <div class="img_6-six"></div>
-  			    </div>
-      			<div class="dribbble_shots-four">
-  				    <div class="img_1-four"></div>
-  				    <div class="img_2-four"></div>
-  				    <div class="img_3-four"></div>
-  				    <div class="img_4-four"></div>
-  			    </div>
-  			    <div class="dribbble_shots-mini">
-  				    <div class="img_1-mini"></div>
-  				    <div class="img_2-mini"></div>
-  				    <div class="img_3-mini"></div>
-  				    <div class="img_4-mini"></div>
-  				    <div class="img_5-mini"></div>
-  				    <div class="img_6-mini"></div>
-  				    <div class="img_7-mini"></div>
-  				    <div class="img_8-mini"></div>
-  			    </div>
           </div>
 
           <!-- dribble_shots ends -->
